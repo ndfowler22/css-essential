@@ -1,0 +1,64 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Global Styles
+------------------------------*/
+
+body {
+}
+
+a {
+    color: #322323;
+}
+
+a:hover {
+    color: grey;
+}
+
+/* Profile
+------------------------------*/
+
+header {
+    background-color: #36404b;
+}
+
+/* Projects
+------------------------------*/
+
+.projects {
+    background-color: #9aacba;
+    padding: 2px;
+}
+
+.projects .btn {
+    color: grey;
+    background-color: #36404b ;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background-color: rgba(54, 64, 75, 80%);
+}
+/* Work Experience
+------------------------------*/
+
+.work-experience {
+    background-color: #2f2f32;
+}
+
+/* Education
+------------------------------*/
+
+
+/* Contact Information
+------------------------------*/
+
+footer {
+    background-color: #36404b;
+}
