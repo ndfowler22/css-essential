@@ -8,7 +8,18 @@ body, header, nav, main, footer, img, h1, h2, ul {
 /* Global Styles
 ------------------------------*/
 
+html {
+    box-sizing: border-box;
+}
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
 body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 a {
@@ -17,6 +28,23 @@ a {
 
 a:hover {
     color: grey;
+}
+
+h1 {
+    line-height: 1;
+}
+
+h1,h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    margin: 0;
+    text-shadow: 1px 1px 4px grey;
+}
+
+.content-wrap {
+    width:800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 /* Profile
@@ -45,6 +73,19 @@ header {
 .projects .btn:hover {
     background-color: rgba(54, 64, 75, 80%);
 }
+
+.project-item {
+    overflow: hidden;
+}
+
+.project-item img {
+    float: left;
+    margin: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
 /* Work Experience
 ------------------------------*/
 
@@ -55,6 +96,9 @@ header {
 /* Education
 ------------------------------*/
 
+.education {
+    background-color: #9aacba;
+}
 
 /* Contact Information
 ------------------------------*/
